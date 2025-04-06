@@ -5,26 +5,42 @@ body {
 
 #h1{
   text-align: center;
-  text-decoration: underline wavy;
+  text-decoration: underline;
 }
 
 #table{
-  border: .5px solid blue;
-  text-align: center;
-}
-
-th, td{
-  text-align: center;
+  background-color: bisque;
+  border: 1px solid black;
+  border-radius: 30px;
   padding: 20px;
+  margin: 0 auto;
+  max-width: 50rem;
+  text-align: center;
+  
 }
 
-#img{
-  width: 90px;
+thead, th:nth-child(1){
+  color: blue;
+  text-align: center;
+  text-decoration: underline;
 }
- #header{
+
+ header{
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
-
+  text-align: center;
+  margin: 0 auto;
+  max-width: 60rem;
  }
 
+ header img{
+  width: 150px;
+  margin: 0 auto;
+ }
+
+ caption{
+  caption-side: bottom;
+  text-align: left;
+  
+ }
 
